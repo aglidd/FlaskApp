@@ -25,10 +25,11 @@ img {
 }
 .image3 {
 	float: left;
-
+	width: 50%;
 }
 .text
 {
+	width: 50%;
 	float: right;
 	text-align: center:
 }
