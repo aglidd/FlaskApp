@@ -17,13 +17,14 @@ body
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  border:5px solid #aaaa55;
 
 }
 img {
   border-radius: 50%;
   height: 100%;
   width: 100%;
-  border:5px solid #aaaa55;
+
 }
 .image {
 	float: center;
