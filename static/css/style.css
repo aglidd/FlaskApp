@@ -67,6 +67,7 @@ canvas {
   }
   .header1 {
     font-size: 7vw;
+    margin-bottom: 0;
   }
   .header2 {
     font-size: 2.5vw;
