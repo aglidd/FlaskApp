@@ -21,8 +21,8 @@ body
 }
 img {
   border-radius: 50%;
-  height: 50%;
-  width: 55%;
+  height: 100%;
+  width: 100%;
 }
 .image {
 	float: left;
