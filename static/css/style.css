@@ -17,7 +17,7 @@ body
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border:5px solid #aaaa55;
+ 
 }
 img {
   border-radius: 50%;
@@ -27,7 +27,7 @@ img {
 .image {
 	float: left;
 	width: 25%;
-	border:5px solid #aaaa55;
+
 }
 .text
 {
