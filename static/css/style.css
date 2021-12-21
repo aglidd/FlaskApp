@@ -48,21 +48,21 @@ canvas {
   color: #fc7a00;
 }
 
-@media screen and (max-width: 785px) {
+@media all and (max-width: 785px) {
   .header1 {
-    font-size: 8vw;
+    font-size: 6vw;
   }
   .link1 {
     font-size: 4vw;
   }
 }
 
-@media screen and (max-width: 765px) {
+@media all and (max-width: 765px) {
   body {
     text-align: center;
   }
   .header1 {
-    font-size: 9vw;
+    font-size: 7vw;
   }
   .header2 {
     font-size: 2.5vw;
@@ -72,7 +72,7 @@ canvas {
   }
 }
 
-@media screen and (min-width: 1390px) {
+@media all and (min-width: 1390px) {
   .header2 {
     font-size: 1.1vw;
   }
