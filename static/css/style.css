@@ -61,6 +61,10 @@ canvas {
   body {
     text-align: center;
   }
+  div
+  {
+      text-align: center;
+  }
   .header1 {
     font-size: 7vw;
   }
