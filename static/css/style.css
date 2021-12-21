@@ -17,7 +17,9 @@ body
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border:5px solid #aaaa55;
+  
+  text-align: center;
+
 
 }
 img {
@@ -28,15 +30,24 @@ img {
 
 }
 .image {
-	float: center;
-	width: 25%;
-	border:5px solid #aaaa55;
+	float:left;
+
+
+	width: 35%;
+
 
 }
-.textdiv
+
+.center h1
 {
-	width: 50%;
-	float: right;
-	text-align: center;
-	border:5px solid #aaaa55;
+
+	font-size: 40px;
+	color: #A9A5A5;
+	margin-bottom: 0;
+}
+.center h2
+{
+	margin-top: 0;
+	color: #A9A5A5;
+	font-size: 25px;
 }
