@@ -11,7 +11,7 @@ body
 	width: 100%;
 	background: #262626;
 }
-.text {
+.container {
 	position: absolute;
 	top: 50%;
 	right: 50%;
@@ -26,4 +26,13 @@ img {
   border-radius: 50%;
   height: 25%;
   width: 25%;
+}
+.image
+{
+	flex-basis: 40%;
+}
+.text
+{
+	font-size: 20px;
+	padding-left: 20px;
 }
