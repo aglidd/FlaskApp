@@ -5,18 +5,27 @@
 	<title> Aaron Glidden </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="{{url_for('static', filename='css/style.css')}}"rel="stylesheet">
+	<link href="{{url_for('static', filename='css/bootstrap.css')}}" rel="stylesheet">
+	<link href="{{url_for('static', filename='css/bootstrap-grid.css')}}" rel="stylesheet">
+	<link href="{{url_for('static', filename='css/bootstrap-reboot.css')}}" rel="stylesheet">
 </head>
 <body id="particle_background">
-	<div id="particles-js"></div>
-	<script type="text/javascript" src="{{url_for('static', filename='scripts/particles.js')}}"></script>
-	<script type="text/javascript" src="{{url_for('static', filename='scripts/app.js')}}"></script>
-
+	<div id="particles-js">
+		<canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" width="203" height="967"></canvas>
+	</div>
 	<div class="container">
 		<div class="center">
-			<img src="{{url_for('static', filename='imgs/aaron_pic.jpg')}}">
-			<h1>Aaron Glidden</h1>
-			<h2>Computer Engineer</h2>
+			<div class="row">
+				<div class="col-md-5">
+					<img class="image img-fluid" src="{{url_for('static', filename='imgs/aaron_pic.jpg')}}">
+				</div>
+				<div class="col-md">
+					<p class="header1">Aaron Glidden</p>
+				</div>
+			</div>
 		</div>
 	</div>
+	<script type="text/javascript" src="{{url_for('static', filename='scripts/particles.js')}}"></script>
+	<script type="text/javascript" src="{{url_for('static', filename='scripts/app.js')}}"></script>
 </body>
 </html>
