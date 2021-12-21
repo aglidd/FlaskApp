@@ -42,10 +42,11 @@ canvas {
   color: inherit;
   margin: 0px 5px 0px 5px;
   transition: 0.5s;
+  text-align: center;
 }
 
 .link1:hover {
-  color: #fc7a00;
+  color: #810000;
 }
 
 @media all and (max-width: 785px) {
