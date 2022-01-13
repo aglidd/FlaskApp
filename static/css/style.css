@@ -16,9 +16,26 @@ canvas {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.pdf {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  right: 10%
+  transform: translate(-50%, -50%);
+}
 
 .image {
   border-radius: 50%;
+}
+.pdf-view
+{
+    margin-left: 28.1%;
+
+    position: fixed;
+    align: middle;
+    width: 43.8%;
+    height:100%;
+
 }
 
 .header1 {
@@ -55,6 +72,11 @@ canvas {
   }
   .link1 {
     font-size: 4vw;
+  }
+  .pdf-view{
+      width: 100%;
+      margin-left: 0;
+      height: 
   }
 }
 
