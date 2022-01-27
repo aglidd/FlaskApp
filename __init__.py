@@ -10,5 +10,9 @@ def homepage():
 def about():
     return render_template("about.html")
 
+@app.route('/peyton')
+def peyton():
+    return render_template("peyton.html")
+
 if __name__ == "__main__":
     app.run()
